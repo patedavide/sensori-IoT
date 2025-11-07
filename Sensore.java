@@ -38,7 +38,7 @@ public class Sensore {
     }
 
     public boolean equals(Sensore sensoreConfrontato) {
-        return dataProssimaSostituzione == sensoreConfrontato.dataProssimaSostituzione && dataUltimaSostituzione == sensoreConfrontato.dataUltimaSostituzione && Ipv4 == sensoreConfrontato.Ipv4;
+        return Ipv4 == sensoreConfrontato.Ipv4 && coordinate == sensoreConfrontato.coordinate;
     }
 
     public String toString(){
